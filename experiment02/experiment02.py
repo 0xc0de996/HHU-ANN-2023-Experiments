@@ -1,17 +1,11 @@
 import os
 
 try:
-    import torch
+    import numpy as np
 except ImportError as e:
-    os.system("pip install torch -i https://pypi.tuna.tsinghua.edu.cn/simple")
-    import torch
+    os.system("sudo pip3 install numpy")
+    import numpy as np
 
-try:
-    import torchvision
-except ImportError as e:
-    os.system("pip install torchvision -i https://pypi.tuna.tsinghua.edu.cn/simple")
-    import torchvision
-    
 def main():
-    return torch.tensor(0)
+    pass
     
