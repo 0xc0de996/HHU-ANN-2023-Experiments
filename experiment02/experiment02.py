@@ -1,3 +1,5 @@
+import os
+
 try:
     import torch
 except ImportError as e:
